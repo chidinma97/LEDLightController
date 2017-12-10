@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/redInten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Val:" />
+
+    <SeekBar
+        android:id="@+id/rSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/greenInten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Int:" />
+
+    <SeekBar
+            android:id="@+id/gSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/blueInten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Int:" />
+
+    <SeekBar
+            android:id="@+id/bSeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TURN ON" />
+
+    <TextView
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="error"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</LinearLayout>
